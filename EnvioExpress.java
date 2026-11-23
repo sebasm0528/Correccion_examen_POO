@@ -18,7 +18,7 @@ public class EnvioExpress extends EnvioNacional {
 
     @Override
     public double calcularCosto() {
-        return super.calcularCosto() * 1.40;   // recargo del 40%
+        return super.calcularCosto() * 1.40;
     }
 
     @Override

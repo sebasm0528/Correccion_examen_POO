@@ -42,6 +42,7 @@ public class Envio {
         return kilosFacturables() * 2.00;
     }
 
+
     public String describir() {
         return "Guia: " + guia + " | Destinatario: " + destinatario
                 + " | Ciudad: " + ciudadDestino + " | Peso: " + pesoKg + " kg";

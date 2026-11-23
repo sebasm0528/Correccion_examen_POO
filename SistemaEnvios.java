@@ -11,7 +11,7 @@ public class SistemaEnvios {
         int opcion = 0;
 
         while (opcion != 5) {
-            System.out.println("\n===== SERVIENTREGA =====");
+            System.out.println("\n====== SERVIENTREGA ======");
             System.out.println("1. Registrar envio");
             System.out.println("2. Consultar envio");
             System.out.println("3. Entregar envio");
