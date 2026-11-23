@@ -1,8 +1,7 @@
 public class EnvioInternacional extends Envio {
     private double valorFobUsd;
 
-    public EnvioInternacional(String guia, String destinatario, String ciudadDestino,
-                              double pesoKg, double valorFobUsd) {
+    public EnvioInternacional(String guia, String destinatario, String ciudadDestino, double pesoKg, double valorFobUsd) {
         super(guia, destinatario, ciudadDestino, pesoKg);
         this.valorFobUsd = valorFobUsd;
     }

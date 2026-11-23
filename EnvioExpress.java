@@ -2,8 +2,7 @@ public class EnvioExpress extends EnvioNacional {
     private int horasEntrega;
 
 
-    public EnvioExpress(String guia, String destinatario, String ciudadDestino,
-                        double pesoKg, boolean entregaDomicilio, int horasEntrega) {
+    public EnvioExpress(String guia, String destinatario, String ciudadDestino, double pesoKg, boolean entregaDomicilio, int horasEntrega) {
         super(guia, destinatario, ciudadDestino, pesoKg, entregaDomicilio);
         this.horasEntrega = horasEntrega;
     }

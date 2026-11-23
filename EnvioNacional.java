@@ -1,8 +1,7 @@
 public class EnvioNacional extends Envio {
     private boolean entregaDomicilio;
 
-    public EnvioNacional(String guia, String destinatario, String ciudadDestino,
-                         double pesoKg, boolean entregaDomicilio) {
+    public EnvioNacional(String guia, String destinatario, String ciudadDestino, double pesoKg, boolean entregaDomicilio) {
         super(guia, destinatario, ciudadDestino, pesoKg);
         this.entregaDomicilio = entregaDomicilio;
     }
